@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Game</title>
+</head>
+
+<link rel="stylesheet" href="styling.css">
+
+<body>
+    <header>TREASURE GAME</header>
+
+
+    <div class="container">
+
+        <div class="row">
+            <button class="col" id="1" onclick="check(this.id)"></button>
+            <button class="col" id="2" onclick="check(this.id)"></button>
+            <button class="col" id="3" onclick="check(this.id)"></button>
+
+            <div class="attempt" id="at">Attempts :<div class="number" id="n">3</div>
+            </div>
+        </div>
+        <div class="row">
+            <button class="col" id="4" onclick="check(this.id)"></button>
+            <button class="col" id="5" onclick="check(this.id)"></button>
+            <button class="col" id="6" onclick="check(this.id)"></button>
+            <div class="victory" id="v"></div>
+        </div>
+        <div class="row">
+            <button class="col" id="7" onclick="check(this.id)"></button>
+            <button class="col" id="8" onclick="check(this.id)"></button>
+            <button class="col" id="9" onclick="check(this.id)"></button>
+            <button class="res" id="restart" onclick="restart()">Restart game</button>
+        </div>
+
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>

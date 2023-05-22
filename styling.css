@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: lightblue;
+    height: 8vh;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    margin-bottom: 4vh;
+}
+
+.container {
+    margin-left: 15vh;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    background-image: url(bgimage.jpg);
+    background-size: 25vh;
+    border-color: blue;
+    height: 25vh;
+    width: 25vh;
+    margin: 2vh;
+}
+
+.col:hover {
+    opacity: 0.75;
+    cursor: crosshair;
+}
+
+.attempt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    margin-left: 30vh;
+    border: 3px;
+    border-color: rgb(165, 129, 129);
+    border-style: double;
+    height: 10vh;
+    width: 28vh;
+    text-align: left;
+    padding-left: 2vh;
+    display: flex;
+    align-items: center;
+    color: indianred;
+}
+
+.number {
+    margin-left: 2vh;
+}
+
+.res {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    margin-left: 30vh;
+    border: 3px;
+    border-style: double;
+    height: 8vh;
+    width: 25vh;
+    text-align: left;
+    padding-left: 2vh;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.res:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    border-radius: 1vh;
+}
+
+.victory {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    margin-left: 30vh;
+    /* border: 3px;
+    border-color: rgb(165, 129, 129);
+    border-style:double; */
+    height: 10vh;
+    width: 33vh;
+    text-align: left;
+    padding-left: 2vh;
+    display: flex;
+    align-items: center;
+    color: indianred;
+}
